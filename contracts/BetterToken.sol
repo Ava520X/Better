@@ -1,5 +1,7 @@
 pragma solidity ^0.4.17;
 
+// A room on the 10th floor 
+
 import "../node_modules/zeppelin-solidity/contracts/token/ERC20/StandardToken.sol";
 
 contract BetterToken is StandardToken {
