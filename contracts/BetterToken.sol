@@ -7,7 +7,7 @@ import "../node_modules/zeppelin-solidity/contracts/token/ERC20/StandardToken.so
 contract BetterToken is StandardToken {
     string public name = "BetterToken";
     string public symbol = "BE";
-    uint8 public decimals = 10;
+    uint8 public decimals = 2;
     uint public INITIAL_SUPPLY = 12000;
 
     function BetterToken() public {
